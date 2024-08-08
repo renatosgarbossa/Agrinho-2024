@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #66cc66;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* Galeria de itens */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-items {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    transition: transform 0.5s linear;
+    margin: 10px;
+}
+
+.gallery-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-items:hover {
+    transform: scale(1.05);
+}
+
+/* Descrição da imagem à direita */
+.image-description {
+    float: right;
+    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Rodapé */
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    font-style: italic;
+    background-color: #66cc66;
+}
