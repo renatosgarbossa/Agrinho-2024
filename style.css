@@ -1,6 +1,4 @@
-@media (max-width: 600px) {
-    /* Adicione estilos aqui */
-}
+* Estilos globais */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -29,11 +27,12 @@ body {
 .content {
     display: flex;
     flex: 1;
+    flex-wrap: wrap; /* Adicione flex-wrap para evitar que os elementos quebrem a linha */
 }
 
 /* Menu lateral */
 .menu {
-    width: 20%;
+    width: 100%; /* Altere para 100% para ocupar toda a largura em telas menores */
     background: #eee;
     padding: 1rem;
 }
@@ -62,7 +61,7 @@ body {
 
 /* Lado direito */
 .ladodireito {
-    width: 80%;
+    width: 100%; /* Altere para 100% para ocupar toda a largura em telas menores */
     padding: 1rem;
 }
 
@@ -98,4 +97,18 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+    /* Estilos para telas menores que 600px */
+    /* Por exemplo, você pode ajustar o tamanho da fonte ou ocultar elementos */
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* Estilos para telas muito pequenas, como smartphones */
+    /* Adicione regras específicas conforme necessário */
 }
