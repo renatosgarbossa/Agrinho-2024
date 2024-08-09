@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -71,7 +70,7 @@ body {
 }
 
 
-.txt_inicial {
+.txt_inicial{
     padding: 2rem;
     margin: 1rem;
     background: #fff;
@@ -83,9 +82,9 @@ body {
 
 
 .img {
+    width: 100%;
     max-width: 100%;
     height: auto;
-    border-radius: 15px;
 }
 
 
@@ -107,6 +106,6 @@ footer {
 }
 
 @media (max-width: 400px) {
-    /* Estilos para telas muito pequenas, como smartphones */
-    /* Adicione regras específicas conforme necessário */
+
 }
+
