@@ -1,4 +1,4 @@
-* Estilos globais */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -8,14 +8,14 @@ body {
     color: #333;
 }
 
-/* Contêiner principal */
+
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Cabeçalho */
+
 .topo {
     background: #66cc66;
     color: #fff;
@@ -23,16 +23,16 @@ body {
     text-align: center;
 }
 
-/* Conteúdo principal */
+
 .content {
     display: flex;
     flex: 1;
-    flex-wrap: wrap; /* Adicione flex-wrap para evitar que os elementos quebrem a linha */
+    flex-wrap: wrap; 
 }
 
-/* Menu lateral */
+
 .menu {
-    width: 100%; /* Altere para 100% para ocupar toda a largura em telas menores */
+    width: 100%; 
     background: #eee;
     padding: 1rem;
 }
@@ -59,9 +59,9 @@ body {
     color: #66cc66;
 }
 
-/* Lado direito */
+
 .ladodireito {
-    width: 100%; /* Altere para 100% para ocupar toda a largura em telas menores */
+    width: 100%; 
     padding: 1rem;
 }
 
@@ -70,7 +70,7 @@ body {
     text-align: center;
 }
 
-/* Texto inicial */
+
 .txt_inicial {
     padding: 2rem;
     margin: 1rem;
@@ -81,14 +81,14 @@ body {
     text-justify: inter-word;
 }
 
-/* Imagens da jornada */
+
 .journey img {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
 }
 
-/* Rodapé */
+
 footer {
     background: #66cc66;
     color: #fff;
@@ -99,10 +99,8 @@ footer {
     width: 100%;
 }
 
-/* Media queries */
+
 @media (max-width: 600px) {
-    /* Estilos para telas menores que 600px */
-    /* Por exemplo, você pode ajustar o tamanho da fonte ou ocultar elementos */
     body {
         font-size: 14px;
     }
