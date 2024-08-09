@@ -1,4 +1,6 @@
-/* Estilos globais */
+@media (max-width: 600px) {
+    /* Adicione estilos aqui */
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
